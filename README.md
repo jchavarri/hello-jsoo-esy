@@ -1,6 +1,6 @@
 # hello-jsoo-esy
 
-A project that includes the minimum configuration for a [js_of_ocaml](http://ocsigen.org/js_of_ocaml/) project using Reason and [Esy][https://github.com/esy-ocaml/esy].
+A project that includes the minimum configuration for a [js_of_ocaml](http://ocsigen.org/js_of_ocaml/) project using Reason and [Esy](https://github.com/esy-ocaml/esy).
 
 ## Usage
 
