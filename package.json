@@ -18,7 +18,8 @@
     }
   },
   "scripts": {
-    "build:prod": "refmterr dune build --profile=prod ./src/Hello.bc.js -f"
+    "build:watch": "refmterr dune build ./src/Hello.bc.js -w",
+    "build:prod": "refmterr dune build --profile=prod -f ./src/Hello.bc.js"
   },
   "dependencies": {
     "@opam/js_of_ocaml": "~3.2.0",
