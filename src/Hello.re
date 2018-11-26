@@ -70,3 +70,7 @@ log("tuple", tuple);
 log("function", func);
 log("obj", obj);
 log("obj property", dataProp);
+
+/* Using a JavaScript library */
+let isSorted = IsSorted.sorted([|2, 3, 14|]);
+log("isSorted", isSorted);

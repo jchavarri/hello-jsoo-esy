@@ -1,7 +1,335 @@
 {
-  "hash": "69f02e9bd1de94cd0845024e30327128",
+  "hash": "b7775936a1ce951d54698670eb18d5c9",
   "root": "root@path:./package.json",
   "node": {
+    "xtend@4.0.1": {
+      "record": {
+        "name": "xtend",
+        "version": "4.0.1",
+        "source":
+          "archive:https://registry.npmjs.org/xtend/-/xtend-4.0.1.tgz#sha1:a5c6d532be656e23db820efb943a1f04998d63af",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "wrappy@1.0.2": {
+      "record": {
+        "name": "wrappy",
+        "version": "1.0.2",
+        "source":
+          "archive:https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz#sha1:b5243d8f3ec1aa35f1364605bc0d1036e30ab69f",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "vm-browserify@0.0.4": {
+      "record": {
+        "name": "vm-browserify",
+        "version": "0.0.4",
+        "source":
+          "archive:https://registry.npmjs.org/vm-browserify/-/vm-browserify-0.0.4.tgz#sha1:5d7ea45bbef9e4a6ff65f95438e0a87c357d5a73",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [ "indexof@0.0.1" ]
+    },
+    "util-deprecate@1.0.2": {
+      "record": {
+        "name": "util-deprecate",
+        "version": "1.0.2",
+        "source":
+          "archive:https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz#sha1:450d4dc9fa70de732762fbd2d4a28981419a0ccf",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "util@0.10.4": {
+      "record": {
+        "name": "util",
+        "version": "0.10.4",
+        "source":
+          "archive:https://registry.npmjs.org/util/-/util-0.10.4.tgz#sha1:3aa0125bfe668a4672de58857d3ace27ecb76901",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [ "inherits@2.0.3" ]
+    },
+    "util@0.10.3": {
+      "record": {
+        "name": "util",
+        "version": "0.10.3",
+        "source":
+          "archive:http://registry.npmjs.org/util/-/util-0.10.3.tgz#sha1:7afb1afe50805246489e3db7fe0ed379336ac0f9",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [ "inherits@2.0.1" ]
+    },
+    "url@0.11.0": {
+      "record": {
+        "name": "url",
+        "version": "0.11.0",
+        "source":
+          "archive:https://registry.npmjs.org/url/-/url-0.11.0.tgz#sha1:3838e97cfc60521eb73c525a8e55bfdd9e2e28f1",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [ "punycode@1.3.2", "querystring@0.2.0" ]
+    },
+    "undeclared-identifiers@1.1.2": {
+      "record": {
+        "name": "undeclared-identifiers",
+        "version": "1.1.2",
+        "source":
+          "archive:https://registry.npmjs.org/undeclared-identifiers/-/undeclared-identifiers-1.1.2.tgz#sha1:7d850a98887cff4bd0bf64999c014d08ed6d1acc",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [
+        "acorn-node@1.6.2", "get-assigned-identifiers@1.2.0",
+        "simple-concat@1.0.0", "xtend@4.0.1"
+      ]
+    },
+    "umd@3.0.3": {
+      "record": {
+        "name": "umd",
+        "version": "3.0.3",
+        "source":
+          "archive:https://registry.npmjs.org/umd/-/umd-3.0.3.tgz#sha1:aa9fe653c42b9097678489c01000acb69f0b26cf",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "typedarray@0.0.6": {
+      "record": {
+        "name": "typedarray",
+        "version": "0.0.6",
+        "source":
+          "archive:https://registry.npmjs.org/typedarray/-/typedarray-0.0.6.tgz#sha1:867ac74e3864187b1d3d47d996a78ec5c8830777",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "tty-browserify@0.0.1": {
+      "record": {
+        "name": "tty-browserify",
+        "version": "0.0.1",
+        "source":
+          "archive:https://registry.npmjs.org/tty-browserify/-/tty-browserify-0.0.1.tgz#sha1:3f05251ee17904dfd0677546670db9651682b811",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "to-arraybuffer@1.0.1": {
+      "record": {
+        "name": "to-arraybuffer",
+        "version": "1.0.1",
+        "source":
+          "archive:https://registry.npmjs.org/to-arraybuffer/-/to-arraybuffer-1.0.1.tgz#sha1:7d229b1fcc637e466ca081180836a7aabff83f43",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "timers-browserify@1.4.2": {
+      "record": {
+        "name": "timers-browserify",
+        "version": "1.4.2",
+        "source":
+          "archive:https://registry.npmjs.org/timers-browserify/-/timers-browserify-1.4.2.tgz#sha1:c9c58b575be8407375cb5e2462dacee74359f41d",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [ "process@0.11.10" ]
+    },
+    "through2@2.0.5": {
+      "record": {
+        "name": "through2",
+        "version": "2.0.5",
+        "source":
+          "archive:https://registry.npmjs.org/through2/-/through2-2.0.5.tgz#sha1:01c1e39eb31d07cb7d03a96a70823260b23132cd",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [ "readable-stream@2.3.6", "xtend@4.0.1" ]
+    },
+    "through@2.3.8": {
+      "record": {
+        "name": "through",
+        "version": "2.3.8",
+        "source":
+          "archive:http://registry.npmjs.org/through/-/through-2.3.8.tgz#sha1:0dd4c9ffaabc357960b1b724115d7e0e86a2e1f5",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "syntax-error@1.4.0": {
+      "record": {
+        "name": "syntax-error",
+        "version": "1.4.0",
+        "source":
+          "archive:https://registry.npmjs.org/syntax-error/-/syntax-error-1.4.0.tgz#sha1:2d9d4ff5c064acb711594a3e3b95054ad51d907c",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [ "acorn-node@1.6.2" ]
+    },
+    "subarg@1.0.0": {
+      "record": {
+        "name": "subarg",
+        "version": "1.0.0",
+        "source":
+          "archive:https://registry.npmjs.org/subarg/-/subarg-1.0.0.tgz#sha1:f62cf17581e996b48fc965699f54c06ae268b8d2",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [ "minimist@1.2.0" ]
+    },
+    "string_decoder@1.1.1": {
+      "record": {
+        "name": "string_decoder",
+        "version": "1.1.1",
+        "source":
+          "archive:https://registry.npmjs.org/string_decoder/-/string_decoder-1.1.1.tgz#sha1:9cf1611ba62685d7030ae9e4ba34149c3af03fc8",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [ "safe-buffer@5.1.2" ]
+    },
+    "string_decoder@0.10.31": {
+      "record": {
+        "name": "string_decoder",
+        "version": "0.10.31",
+        "source":
+          "archive:https://registry.npmjs.org/string_decoder/-/string_decoder-0.10.31.tgz#sha1:62e203bc41766c6c28c9fc84301dab1c5310fa94",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "stream-splicer@2.0.0": {
+      "record": {
+        "name": "stream-splicer",
+        "version": "2.0.0",
+        "source":
+          "archive:https://registry.npmjs.org/stream-splicer/-/stream-splicer-2.0.0.tgz#sha1:1b63be438a133e4b671cc1935197600175910d83",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [ "inherits@2.0.3", "readable-stream@2.3.6" ]
+    },
+    "stream-http@2.8.3": {
+      "record": {
+        "name": "stream-http",
+        "version": "2.8.3",
+        "source":
+          "archive:https://registry.npmjs.org/stream-http/-/stream-http-2.8.3.tgz#sha1:b2d242469288a5a27ec4fe8933acf623de6514fc",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [
+        "builtin-status-codes@3.0.0", "inherits@2.0.3",
+        "readable-stream@2.3.6", "to-arraybuffer@1.0.1", "xtend@4.0.1"
+      ]
+    },
+    "stream-combiner2@1.1.1": {
+      "record": {
+        "name": "stream-combiner2",
+        "version": "1.1.1",
+        "source":
+          "archive:https://registry.npmjs.org/stream-combiner2/-/stream-combiner2-1.1.1.tgz#sha1:fb4d8a1420ea362764e21ad4780397bebcb41cbe",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [ "duplexer2@0.1.4", "readable-stream@2.3.6" ]
+    },
+    "stream-browserify@2.0.1": {
+      "record": {
+        "name": "stream-browserify",
+        "version": "2.0.1",
+        "source":
+          "archive:http://registry.npmjs.org/stream-browserify/-/stream-browserify-2.0.1.tgz#sha1:66266ee5f9bdb9940a4e4514cafb43bb71e5c9db",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [ "inherits@2.0.3", "readable-stream@2.0.6" ]
+    },
+    "source-map@0.5.7": {
+      "record": {
+        "name": "source-map",
+        "version": "0.5.7",
+        "source":
+          "archive:https://registry.npmjs.org/source-map/-/source-map-0.5.7.tgz#sha1:8a039d2d1021d22d1ea14c80d8ea468ba2ef3fcc",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "simple-concat@1.0.0": {
+      "record": {
+        "name": "simple-concat",
+        "version": "1.0.0",
+        "source":
+          "archive:https://registry.npmjs.org/simple-concat/-/simple-concat-1.0.0.tgz#sha1:7344cbb8b6e26fb27d66b2fc86f9f6d5997521c6",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "shell-quote@1.6.1": {
+      "record": {
+        "name": "shell-quote",
+        "version": "1.6.1",
+        "source":
+          "archive:https://registry.npmjs.org/shell-quote/-/shell-quote-1.6.1.tgz#sha1:f4781949cce402697127430ea3b3c5476f481767",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [
+        "array-filter@0.0.1", "array-map@0.0.0", "array-reduce@0.0.0",
+        "jsonify@0.0.0"
+      ]
+    },
+    "shasum@1.0.2": {
+      "record": {
+        "name": "shasum",
+        "version": "1.0.2",
+        "source":
+          "archive:http://registry.npmjs.org/shasum/-/shasum-1.0.2.tgz#sha1:e7012310d8f417f4deb5712150e5678b87ae565f",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [ "json-stable-stringify@0.0.1", "sha.js@2.4.11" ]
+    },
+    "sha.js@2.4.11": {
+      "record": {
+        "name": "sha.js",
+        "version": "2.4.11",
+        "source":
+          "archive:http://registry.npmjs.org/sha.js/-/sha.js-2.4.11.tgz#sha1:37a5cf0b81ecbc6943de109ba2960d1b26584ae7",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [ "inherits@2.0.3", "safe-buffer@5.1.2" ]
+    },
+    "safe-buffer@5.1.2": {
+      "record": {
+        "name": "safe-buffer",
+        "version": "5.1.2",
+        "source":
+          "archive:https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.2.tgz#sha1:991ec69d296e0313747d59bdfd2b745c35f8828d",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
     "root@path:./package.json": {
       "record": {
         "name": "root",
@@ -13,8 +341,42 @@
       "dependencies": [
         "@esy-ocaml/merlin@3.0.5005", "@esy-ocaml/reason@3.3.7",
         "@opam/dune@opam:1.5.1", "@opam/js_of_ocaml@opam:3.2.0",
-        "@opam/js_of_ocaml-ppx@opam:3.2.0", "ocaml@4.6.9", "refmterr@3.1.10"
+        "@opam/js_of_ocaml-ppx@opam:3.2.0", "browserify@13.3.0",
+        "is-sorted@1.0.5", "ocaml@4.6.9", "refmterr@3.1.10"
       ]
+    },
+    "ripemd160@2.0.2": {
+      "record": {
+        "name": "ripemd160",
+        "version": "2.0.2",
+        "source":
+          "archive:https://registry.npmjs.org/ripemd160/-/ripemd160-2.0.2.tgz#sha1:a1c1a6f624751577ba5d07914cbc92850585890c",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [ "hash-base@3.0.4", "inherits@2.0.3" ]
+    },
+    "resolve@1.8.1": {
+      "record": {
+        "name": "resolve",
+        "version": "1.8.1",
+        "source":
+          "archive:https://registry.npmjs.org/resolve/-/resolve-1.8.1.tgz#sha1:82f1ec19a423ac1fbd080b0bab06ba36e84a7a26",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [ "path-parse@1.0.6" ]
+    },
+    "resolve@1.1.7": {
+      "record": {
+        "name": "resolve",
+        "version": "1.1.7",
+        "source":
+          "archive:https://registry.npmjs.org/resolve/-/resolve-1.1.7.tgz#sha1:203114d82ad2c5ed9e8e0411b3932875e889e97b",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
     },
     "refmterr@3.1.10": {
       "record": {
@@ -30,6 +392,276 @@
         "@opam/re@opam:1.8.0", "ocaml@4.6.9"
       ]
     },
+    "readable-stream@2.3.6": {
+      "record": {
+        "name": "readable-stream",
+        "version": "2.3.6",
+        "source":
+          "archive:http://registry.npmjs.org/readable-stream/-/readable-stream-2.3.6.tgz#sha1:b11c27d88b8ff1fbe070643cf94b0c79ae1b0aaf",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [
+        "core-util-is@1.0.2", "inherits@2.0.3", "isarray@1.0.0",
+        "process-nextick-args@2.0.0", "safe-buffer@5.1.2",
+        "string_decoder@1.1.1", "util-deprecate@1.0.2"
+      ]
+    },
+    "readable-stream@2.0.6": {
+      "record": {
+        "name": "readable-stream",
+        "version": "2.0.6",
+        "source":
+          "archive:http://registry.npmjs.org/readable-stream/-/readable-stream-2.0.6.tgz#sha1:8f90341e68a53ccc928788dacfcd11b36eb9b78e",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [
+        "core-util-is@1.0.2", "inherits@2.0.1", "isarray@1.0.0",
+        "process-nextick-args@1.0.7", "string_decoder@0.10.31",
+        "util-deprecate@1.0.2"
+      ]
+    },
+    "read-only-stream@2.0.0": {
+      "record": {
+        "name": "read-only-stream",
+        "version": "2.0.0",
+        "source":
+          "archive:https://registry.npmjs.org/read-only-stream/-/read-only-stream-2.0.0.tgz#sha1:2724fd6a8113d73764ac288d4386270c1dbf17f0",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [ "readable-stream@2.0.6" ]
+    },
+    "randomfill@1.0.4": {
+      "record": {
+        "name": "randomfill",
+        "version": "1.0.4",
+        "source":
+          "archive:https://registry.npmjs.org/randomfill/-/randomfill-1.0.4.tgz#sha1:c92196fc86ab42be983f1bf31778224931d61458",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [ "randombytes@2.0.6", "safe-buffer@5.1.2" ]
+    },
+    "randombytes@2.0.6": {
+      "record": {
+        "name": "randombytes",
+        "version": "2.0.6",
+        "source":
+          "archive:https://registry.npmjs.org/randombytes/-/randombytes-2.0.6.tgz#sha1:d302c522948588848a8d300c932b44c24231da80",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [ "safe-buffer@5.1.2" ]
+    },
+    "querystring-es3@0.2.1": {
+      "record": {
+        "name": "querystring-es3",
+        "version": "0.2.1",
+        "source":
+          "archive:https://registry.npmjs.org/querystring-es3/-/querystring-es3-0.2.1.tgz#sha1:9ec61f79049875707d69414596fd907a4d711e73",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "querystring@0.2.0": {
+      "record": {
+        "name": "querystring",
+        "version": "0.2.0",
+        "source":
+          "archive:https://registry.npmjs.org/querystring/-/querystring-0.2.0.tgz#sha1:b209849203bb25df820da756e747005878521620",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "punycode@1.4.1": {
+      "record": {
+        "name": "punycode",
+        "version": "1.4.1",
+        "source":
+          "archive:https://registry.npmjs.org/punycode/-/punycode-1.4.1.tgz#sha1:c0d5a63b2718800ad8e1eb0fa5269c84dd41845e",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "punycode@1.3.2": {
+      "record": {
+        "name": "punycode",
+        "version": "1.3.2",
+        "source":
+          "archive:https://registry.npmjs.org/punycode/-/punycode-1.3.2.tgz#sha1:9653a036fb7c1ee42342f2325cceefea3926c48d",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "public-encrypt@4.0.3": {
+      "record": {
+        "name": "public-encrypt",
+        "version": "4.0.3",
+        "source":
+          "archive:https://registry.npmjs.org/public-encrypt/-/public-encrypt-4.0.3.tgz#sha1:4fcc9d77a07e48ba7527e7cbe0de33d0701331e0",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [
+        "bn.js@4.11.8", "browserify-rsa@4.0.1", "create-hash@1.2.0",
+        "parse-asn1@5.1.1", "randombytes@2.0.6", "safe-buffer@5.1.2"
+      ]
+    },
+    "process-nextick-args@2.0.0": {
+      "record": {
+        "name": "process-nextick-args",
+        "version": "2.0.0",
+        "source":
+          "archive:https://registry.npmjs.org/process-nextick-args/-/process-nextick-args-2.0.0.tgz#sha1:a37d732f4271b4ab1ad070d35508e8290788ffaa",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "process-nextick-args@1.0.7": {
+      "record": {
+        "name": "process-nextick-args",
+        "version": "1.0.7",
+        "source":
+          "archive:https://registry.npmjs.org/process-nextick-args/-/process-nextick-args-1.0.7.tgz#sha1:150e20b756590ad3f91093f25a4f2ad8bff30ba3",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "process@0.11.10": {
+      "record": {
+        "name": "process",
+        "version": "0.11.10",
+        "source":
+          "archive:https://registry.npmjs.org/process/-/process-0.11.10.tgz#sha1:7332300e840161bda3e69a1d1d91a7d4bc16f182",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "pbkdf2@3.0.17": {
+      "record": {
+        "name": "pbkdf2",
+        "version": "3.0.17",
+        "source":
+          "archive:https://registry.npmjs.org/pbkdf2/-/pbkdf2-3.0.17.tgz#sha1:976c206530617b14ebb32114239f7b09336e93a6",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [
+        "create-hash@1.2.0", "create-hmac@1.1.7", "ripemd160@2.0.2",
+        "safe-buffer@5.1.2", "sha.js@2.4.11"
+      ]
+    },
+    "path-platform@0.11.15": {
+      "record": {
+        "name": "path-platform",
+        "version": "0.11.15",
+        "source":
+          "archive:https://registry.npmjs.org/path-platform/-/path-platform-0.11.15.tgz#sha1:e864217f74c36850f0852b78dc7bf7d4a5721bf2",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "path-parse@1.0.6": {
+      "record": {
+        "name": "path-parse",
+        "version": "1.0.6",
+        "source":
+          "archive:https://registry.npmjs.org/path-parse/-/path-parse-1.0.6.tgz#sha1:d62dbb5679405d72c4737ec58600e9ddcf06d24c",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "path-is-absolute@1.0.1": {
+      "record": {
+        "name": "path-is-absolute",
+        "version": "1.0.1",
+        "source":
+          "archive:http://registry.npmjs.org/path-is-absolute/-/path-is-absolute-1.0.1.tgz#sha1:174b9268735534ffbc7ace6bf53a5a9e1b5c5f5f",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "path-browserify@0.0.1": {
+      "record": {
+        "name": "path-browserify",
+        "version": "0.0.1",
+        "source":
+          "archive:https://registry.npmjs.org/path-browserify/-/path-browserify-0.0.1.tgz#sha1:e6c4ddd7ed3aa27c68a20cc4e50e1a4ee83bbc4a",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "parse-asn1@5.1.1": {
+      "record": {
+        "name": "parse-asn1",
+        "version": "5.1.1",
+        "source":
+          "archive:http://registry.npmjs.org/parse-asn1/-/parse-asn1-5.1.1.tgz#sha1:f6bf293818332bd0dab54efb16087724745e6ca8",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [
+        "asn1.js@4.10.1", "browserify-aes@1.2.0", "create-hash@1.2.0",
+        "evp_bytestokey@1.0.3", "pbkdf2@3.0.17"
+      ]
+    },
+    "parents@1.0.1": {
+      "record": {
+        "name": "parents",
+        "version": "1.0.1",
+        "source":
+          "archive:https://registry.npmjs.org/parents/-/parents-1.0.1.tgz#sha1:fedd4d2bf193a77745fe71e371d73c3307d9c751",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [ "path-platform@0.11.15" ]
+    },
+    "pako@0.2.9": {
+      "record": {
+        "name": "pako",
+        "version": "0.2.9",
+        "source":
+          "archive:https://registry.npmjs.org/pako/-/pako-0.2.9.tgz#sha1:f3f7522f4ef782348da8161bad9ecfd51bf83a75",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "os-browserify@0.1.2": {
+      "record": {
+        "name": "os-browserify",
+        "version": "0.1.2",
+        "source":
+          "archive:https://registry.npmjs.org/os-browserify/-/os-browserify-0.1.2.tgz#sha1:49ca0293e0b19590a5f5de10c7f265a617d8fe54",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "once@1.4.0": {
+      "record": {
+        "name": "once",
+        "version": "1.4.0",
+        "source":
+          "archive:https://registry.npmjs.org/once/-/once-1.4.0.tgz#sha1:583b1aa775961d4b113ac17d9c50baef9dd76bd1",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [ "wrappy@1.0.2" ]
+    },
     "ocaml@4.6.9": {
       "record": {
         "name": "ocaml",
@@ -40,6 +672,1053 @@
         "opam": null
       },
       "dependencies": []
+    },
+    "module-deps@4.1.1": {
+      "record": {
+        "name": "module-deps",
+        "version": "4.1.1",
+        "source":
+          "archive:https://registry.npmjs.org/module-deps/-/module-deps-4.1.1.tgz#sha1:23215833f1da13fd606ccb8087b44852dcb821fd",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [
+        "JSONStream@1.3.5", "browser-resolve@1.11.3",
+        "cached-path-relative@1.0.2", "concat-stream@1.5.2", "defined@1.0.0",
+        "detective@4.7.1", "duplexer2@0.1.4", "inherits@2.0.3",
+        "parents@1.0.1", "readable-stream@2.0.6", "resolve@1.1.7",
+        "stream-combiner2@1.1.1", "subarg@1.0.0", "through2@2.0.5",
+        "xtend@4.0.1"
+      ]
+    },
+    "minimist@1.2.0": {
+      "record": {
+        "name": "minimist",
+        "version": "1.2.0",
+        "source":
+          "archive:http://registry.npmjs.org/minimist/-/minimist-1.2.0.tgz#sha1:a35008b20f41383eec1fb914f4cd5df79a264284",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "minimatch@3.0.4": {
+      "record": {
+        "name": "minimatch",
+        "version": "3.0.4",
+        "source":
+          "archive:https://registry.npmjs.org/minimatch/-/minimatch-3.0.4.tgz#sha1:5166e286457f03306064be5497e8dbb0c3d32083",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [ "brace-expansion@1.1.11" ]
+    },
+    "minimalistic-crypto-utils@1.0.1": {
+      "record": {
+        "name": "minimalistic-crypto-utils",
+        "version": "1.0.1",
+        "source":
+          "archive:https://registry.npmjs.org/minimalistic-crypto-utils/-/minimalistic-crypto-utils-1.0.1.tgz#sha1:f6c00c1c0b082246e5c4d99dfb8c7c083b2b582a",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "minimalistic-assert@1.0.1": {
+      "record": {
+        "name": "minimalistic-assert",
+        "version": "1.0.1",
+        "source":
+          "archive:https://registry.npmjs.org/minimalistic-assert/-/minimalistic-assert-1.0.1.tgz#sha1:2e194de044626d4a10e7f7fbc00ce73e83e4d5c7",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "miller-rabin@4.0.1": {
+      "record": {
+        "name": "miller-rabin",
+        "version": "4.0.1",
+        "source":
+          "archive:https://registry.npmjs.org/miller-rabin/-/miller-rabin-4.0.1.tgz#sha1:f080351c865b0dc562a8462966daa53543c78a4d",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [ "bn.js@4.11.8", "brorand@1.1.0" ]
+    },
+    "md5.js@1.3.5": {
+      "record": {
+        "name": "md5.js",
+        "version": "1.3.5",
+        "source":
+          "archive:https://registry.npmjs.org/md5.js/-/md5.js-1.3.5.tgz#sha1:b5d07b8e3216e3e27cd728d72f70d1e6a342005f",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [
+        "hash-base@3.0.4", "inherits@2.0.3", "safe-buffer@5.1.2"
+      ]
+    },
+    "lodash.memoize@3.0.4": {
+      "record": {
+        "name": "lodash.memoize",
+        "version": "3.0.4",
+        "source":
+          "archive:https://registry.npmjs.org/lodash.memoize/-/lodash.memoize-3.0.4.tgz#sha1:2dcbd2c287cbc0a55cc42328bd0c736150d53e3f",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "labeled-stream-splicer@2.0.1": {
+      "record": {
+        "name": "labeled-stream-splicer",
+        "version": "2.0.1",
+        "source":
+          "archive:https://registry.npmjs.org/labeled-stream-splicer/-/labeled-stream-splicer-2.0.1.tgz#sha1:9cffa32fd99e1612fd1d86a8db962416d5292926",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [
+        "inherits@2.0.3", "isarray@2.0.4", "stream-splicer@2.0.0"
+      ]
+    },
+    "jsonparse@1.3.1": {
+      "record": {
+        "name": "jsonparse",
+        "version": "1.3.1",
+        "source":
+          "archive:https://registry.npmjs.org/jsonparse/-/jsonparse-1.3.1.tgz#sha1:3f4dae4a91fac315f71062f8521cc239f1366280",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "jsonify@0.0.0": {
+      "record": {
+        "name": "jsonify",
+        "version": "0.0.0",
+        "source":
+          "archive:https://registry.npmjs.org/jsonify/-/jsonify-0.0.0.tgz#sha1:2c74b6ee41d93ca51b7b5aaee8f503631d252a73",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "json-stable-stringify@0.0.1": {
+      "record": {
+        "name": "json-stable-stringify",
+        "version": "0.0.1",
+        "source":
+          "archive:https://registry.npmjs.org/json-stable-stringify/-/json-stable-stringify-0.0.1.tgz#sha1:611c23e814db375527df851193db59dd2af27f45",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [ "jsonify@0.0.0" ]
+    },
+    "isarray@2.0.4": {
+      "record": {
+        "name": "isarray",
+        "version": "2.0.4",
+        "source":
+          "archive:https://registry.npmjs.org/isarray/-/isarray-2.0.4.tgz#sha1:38e7bcbb0f3ba1b7933c86ba1894ddfc3781bbb7",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "isarray@1.0.0": {
+      "record": {
+        "name": "isarray",
+        "version": "1.0.0",
+        "source":
+          "archive:https://registry.npmjs.org/isarray/-/isarray-1.0.0.tgz#sha1:bb935d48582cba168c06834957a54a3e07124f11",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "is-sorted@1.0.5": {
+      "record": {
+        "name": "is-sorted",
+        "version": "1.0.5",
+        "source":
+          "archive:https://registry.npmjs.org/is-sorted/-/is-sorted-1.0.5.tgz#sha1:ded2e357010bc79350b10ec2768e27db1b92b128",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "is-buffer@1.1.6": {
+      "record": {
+        "name": "is-buffer",
+        "version": "1.1.6",
+        "source":
+          "archive:https://registry.npmjs.org/is-buffer/-/is-buffer-1.1.6.tgz#sha1:efaa2ea9daa0d7ab2ea13a97b2b8ad51fefbe8be",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "insert-module-globals@7.2.0": {
+      "record": {
+        "name": "insert-module-globals",
+        "version": "7.2.0",
+        "source":
+          "archive:https://registry.npmjs.org/insert-module-globals/-/insert-module-globals-7.2.0.tgz#sha1:ec87e5b42728479e327bd5c5c71611ddfb4752ba",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [
+        "JSONStream@1.3.5", "acorn-node@1.6.2", "combine-source-map@0.8.0",
+        "concat-stream@1.6.2", "is-buffer@1.1.6", "path-is-absolute@1.0.1",
+        "process@0.11.10", "through2@2.0.5", "undeclared-identifiers@1.1.2",
+        "xtend@4.0.1"
+      ]
+    },
+    "inline-source-map@0.6.2": {
+      "record": {
+        "name": "inline-source-map",
+        "version": "0.6.2",
+        "source":
+          "archive:https://registry.npmjs.org/inline-source-map/-/inline-source-map-0.6.2.tgz#sha1:f9393471c18a79d1724f863fa38b586370ade2a5",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [ "source-map@0.5.7" ]
+    },
+    "inherits@2.0.3": {
+      "record": {
+        "name": "inherits",
+        "version": "2.0.3",
+        "source":
+          "archive:https://registry.npmjs.org/inherits/-/inherits-2.0.3.tgz#sha1:633c2c83e3da42a502f52466022480f4208261de",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "inherits@2.0.1": {
+      "record": {
+        "name": "inherits",
+        "version": "2.0.1",
+        "source":
+          "archive:https://registry.npmjs.org/inherits/-/inherits-2.0.1.tgz#sha1:b17d08d326b4423e568eff719f91b0b1cbdf69f1",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "inflight@1.0.6": {
+      "record": {
+        "name": "inflight",
+        "version": "1.0.6",
+        "source":
+          "archive:https://registry.npmjs.org/inflight/-/inflight-1.0.6.tgz#sha1:49bd6331d7d02d0c09bc910a1075ba8165b56df9",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [ "once@1.4.0", "wrappy@1.0.2" ]
+    },
+    "indexof@0.0.1": {
+      "record": {
+        "name": "indexof",
+        "version": "0.0.1",
+        "source":
+          "archive:https://registry.npmjs.org/indexof/-/indexof-0.0.1.tgz#sha1:82dc336d232b9062179d05ab3293a66059fd435d",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "ieee754@1.1.12": {
+      "record": {
+        "name": "ieee754",
+        "version": "1.1.12",
+        "source":
+          "archive:https://registry.npmjs.org/ieee754/-/ieee754-1.1.12.tgz#sha1:50bf24e5b9c8bb98af4964c941cdb0918da7b60b",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "https-browserify@0.0.1": {
+      "record": {
+        "name": "https-browserify",
+        "version": "0.0.1",
+        "source":
+          "archive:https://registry.npmjs.org/https-browserify/-/https-browserify-0.0.1.tgz#sha1:3f91365cabe60b77ed0ebba24b454e3e09d95a82",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "htmlescape@1.1.1": {
+      "record": {
+        "name": "htmlescape",
+        "version": "1.1.1",
+        "source":
+          "archive:http://registry.npmjs.org/htmlescape/-/htmlescape-1.1.1.tgz#sha1:3a03edc2214bca3b66424a3e7959349509cb0351",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "hmac-drbg@1.0.1": {
+      "record": {
+        "name": "hmac-drbg",
+        "version": "1.0.1",
+        "source":
+          "archive:https://registry.npmjs.org/hmac-drbg/-/hmac-drbg-1.0.1.tgz#sha1:d2745701025a6c775a6c545793ed502fc0c649a1",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [
+        "hash.js@1.1.5", "minimalistic-assert@1.0.1",
+        "minimalistic-crypto-utils@1.0.1"
+      ]
+    },
+    "hash.js@1.1.5": {
+      "record": {
+        "name": "hash.js",
+        "version": "1.1.5",
+        "source":
+          "archive:https://registry.npmjs.org/hash.js/-/hash.js-1.1.5.tgz#sha1:e38ab4b85dfb1e0c40fe9265c0e9b54854c23812",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [ "inherits@2.0.3", "minimalistic-assert@1.0.1" ]
+    },
+    "hash-base@3.0.4": {
+      "record": {
+        "name": "hash-base",
+        "version": "3.0.4",
+        "source":
+          "archive:https://registry.npmjs.org/hash-base/-/hash-base-3.0.4.tgz#sha1:5fc8686847ecd73499403319a6b0a3f3f6ae4918",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [ "inherits@2.0.3", "safe-buffer@5.1.2" ]
+    },
+    "has@1.0.3": {
+      "record": {
+        "name": "has",
+        "version": "1.0.3",
+        "source":
+          "archive:https://registry.npmjs.org/has/-/has-1.0.3.tgz#sha1:722d7cbfc1f6aa8241f16dd814e011e1f41e8796",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [ "function-bind@1.1.1" ]
+    },
+    "glob@7.1.3": {
+      "record": {
+        "name": "glob",
+        "version": "7.1.3",
+        "source":
+          "archive:https://registry.npmjs.org/glob/-/glob-7.1.3.tgz#sha1:3960832d3f1574108342dafd3a67b332c0969df1",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [
+        "fs.realpath@1.0.0", "inflight@1.0.6", "inherits@2.0.3",
+        "minimatch@3.0.4", "once@1.4.0", "path-is-absolute@1.0.1"
+      ]
+    },
+    "get-assigned-identifiers@1.2.0": {
+      "record": {
+        "name": "get-assigned-identifiers",
+        "version": "1.2.0",
+        "source":
+          "archive:https://registry.npmjs.org/get-assigned-identifiers/-/get-assigned-identifiers-1.2.0.tgz#sha1:6dbf411de648cbaf8d9169ebb0d2d576191e2ff1",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "function-bind@1.1.1": {
+      "record": {
+        "name": "function-bind",
+        "version": "1.1.1",
+        "source":
+          "archive:https://registry.npmjs.org/function-bind/-/function-bind-1.1.1.tgz#sha1:a56899d3ea3c9bab874bb9773b7c5ede92f4895d",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "fs.realpath@1.0.0": {
+      "record": {
+        "name": "fs.realpath",
+        "version": "1.0.0",
+        "source":
+          "archive:https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz#sha1:1504ad2523158caa40db4a2787cb01411994ea4f",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "evp_bytestokey@1.0.3": {
+      "record": {
+        "name": "evp_bytestokey",
+        "version": "1.0.3",
+        "source":
+          "archive:https://registry.npmjs.org/evp_bytestokey/-/evp_bytestokey-1.0.3.tgz#sha1:7fcbdb198dc71959432efe13842684e0525acb02",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [ "md5.js@1.3.5", "safe-buffer@5.1.2" ]
+    },
+    "events@1.1.1": {
+      "record": {
+        "name": "events",
+        "version": "1.1.1",
+        "source":
+          "archive:http://registry.npmjs.org/events/-/events-1.1.1.tgz#sha1:9ebdb7635ad099c70dcc4c2a1f5004288e8bd924",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "elliptic@6.4.1": {
+      "record": {
+        "name": "elliptic",
+        "version": "6.4.1",
+        "source":
+          "archive:https://registry.npmjs.org/elliptic/-/elliptic-6.4.1.tgz#sha1:c2d0b7776911b86722c632c3c06c60f2f819939a",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [
+        "bn.js@4.11.8", "brorand@1.1.0", "hash.js@1.1.5", "hmac-drbg@1.0.1",
+        "inherits@2.0.3", "minimalistic-assert@1.0.1",
+        "minimalistic-crypto-utils@1.0.1"
+      ]
+    },
+    "duplexer2@0.1.4": {
+      "record": {
+        "name": "duplexer2",
+        "version": "0.1.4",
+        "source":
+          "archive:https://registry.npmjs.org/duplexer2/-/duplexer2-0.1.4.tgz#sha1:8b12dab878c0d69e3e7891051662a32fc6bddcc1",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [ "readable-stream@2.0.6" ]
+    },
+    "domain-browser@1.1.7": {
+      "record": {
+        "name": "domain-browser",
+        "version": "1.1.7",
+        "source":
+          "archive:https://registry.npmjs.org/domain-browser/-/domain-browser-1.1.7.tgz#sha1:867aa4b093faa05f1de08c06f4d7b21fdf8698bc",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "diffie-hellman@5.0.3": {
+      "record": {
+        "name": "diffie-hellman",
+        "version": "5.0.3",
+        "source":
+          "archive:http://registry.npmjs.org/diffie-hellman/-/diffie-hellman-5.0.3.tgz#sha1:40e8ee98f55a2149607146921c63e1ae5f3d2875",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [
+        "bn.js@4.11.8", "miller-rabin@4.0.1", "randombytes@2.0.6"
+      ]
+    },
+    "detective@4.7.1": {
+      "record": {
+        "name": "detective",
+        "version": "4.7.1",
+        "source":
+          "archive:https://registry.npmjs.org/detective/-/detective-4.7.1.tgz#sha1:0eca7314338442febb6d65da54c10bb1c82b246e",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [ "acorn@5.7.3", "defined@1.0.0" ]
+    },
+    "des.js@1.0.0": {
+      "record": {
+        "name": "des.js",
+        "version": "1.0.0",
+        "source":
+          "archive:https://registry.npmjs.org/des.js/-/des.js-1.0.0.tgz#sha1:c074d2e2aa6a8a9a07dbd61f9a15c2cd83ec8ecc",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [ "inherits@2.0.3", "minimalistic-assert@1.0.1" ]
+    },
+    "deps-sort@2.0.0": {
+      "record": {
+        "name": "deps-sort",
+        "version": "2.0.0",
+        "source":
+          "archive:https://registry.npmjs.org/deps-sort/-/deps-sort-2.0.0.tgz#sha1:091724902e84658260eb910748cccd1af6e21fb5",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [
+        "JSONStream@1.3.5", "shasum@1.0.2", "subarg@1.0.0", "through2@2.0.5"
+      ]
+    },
+    "defined@1.0.0": {
+      "record": {
+        "name": "defined",
+        "version": "1.0.0",
+        "source":
+          "archive:https://registry.npmjs.org/defined/-/defined-1.0.0.tgz#sha1:c98d9bcef75674188e110969151199e39b1fa693",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "date-now@0.1.4": {
+      "record": {
+        "name": "date-now",
+        "version": "0.1.4",
+        "source":
+          "archive:https://registry.npmjs.org/date-now/-/date-now-0.1.4.tgz#sha1:eaf439fd4d4848ad74e5cc7dbef200672b9e345b",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "crypto-browserify@3.12.0": {
+      "record": {
+        "name": "crypto-browserify",
+        "version": "3.12.0",
+        "source":
+          "archive:https://registry.npmjs.org/crypto-browserify/-/crypto-browserify-3.12.0.tgz#sha1:396cf9f3137f03e4b8e532c58f698254e00f80ec",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [
+        "browserify-cipher@1.0.1", "browserify-sign@4.0.4",
+        "create-ecdh@4.0.3", "create-hash@1.2.0", "create-hmac@1.1.7",
+        "diffie-hellman@5.0.3", "inherits@2.0.3", "pbkdf2@3.0.17",
+        "public-encrypt@4.0.3", "randombytes@2.0.6", "randomfill@1.0.4"
+      ]
+    },
+    "create-hmac@1.1.7": {
+      "record": {
+        "name": "create-hmac",
+        "version": "1.1.7",
+        "source":
+          "archive:http://registry.npmjs.org/create-hmac/-/create-hmac-1.1.7.tgz#sha1:69170c78b3ab957147b2b8b04572e47ead2243ff",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [
+        "cipher-base@1.0.4", "create-hash@1.2.0", "inherits@2.0.1",
+        "ripemd160@2.0.2", "safe-buffer@5.1.2", "sha.js@2.4.11"
+      ]
+    },
+    "create-hash@1.2.0": {
+      "record": {
+        "name": "create-hash",
+        "version": "1.2.0",
+        "source":
+          "archive:http://registry.npmjs.org/create-hash/-/create-hash-1.2.0.tgz#sha1:889078af11a63756bcfb59bd221996be3a9ef196",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [
+        "cipher-base@1.0.4", "inherits@2.0.1", "md5.js@1.3.5",
+        "ripemd160@2.0.2", "sha.js@2.4.11"
+      ]
+    },
+    "create-ecdh@4.0.3": {
+      "record": {
+        "name": "create-ecdh",
+        "version": "4.0.3",
+        "source":
+          "archive:https://registry.npmjs.org/create-ecdh/-/create-ecdh-4.0.3.tgz#sha1:c9111b6f33045c4697f144787f9254cdc77c45ff",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [ "bn.js@4.11.8", "elliptic@6.4.1" ]
+    },
+    "core-util-is@1.0.2": {
+      "record": {
+        "name": "core-util-is",
+        "version": "1.0.2",
+        "source":
+          "archive:https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.2.tgz#sha1:b5fd54220aa2bc5ab57aab7140c940754503c1a7",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "convert-source-map@1.1.3": {
+      "record": {
+        "name": "convert-source-map",
+        "version": "1.1.3",
+        "source":
+          "archive:http://registry.npmjs.org/convert-source-map/-/convert-source-map-1.1.3.tgz#sha1:4829c877e9fe49b3161f3bf3673888e204699860",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "constants-browserify@1.0.0": {
+      "record": {
+        "name": "constants-browserify",
+        "version": "1.0.0",
+        "source":
+          "archive:https://registry.npmjs.org/constants-browserify/-/constants-browserify-1.0.0.tgz#sha1:c20b96d8c617748aaf1c16021760cd27fcb8cb75",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "console-browserify@1.1.0": {
+      "record": {
+        "name": "console-browserify",
+        "version": "1.1.0",
+        "source":
+          "archive:https://registry.npmjs.org/console-browserify/-/console-browserify-1.1.0.tgz#sha1:f0241c45730a9fc6323b206dbf38edc741d0bb10",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [ "date-now@0.1.4" ]
+    },
+    "concat-stream@1.6.2": {
+      "record": {
+        "name": "concat-stream",
+        "version": "1.6.2",
+        "source":
+          "archive:https://registry.npmjs.org/concat-stream/-/concat-stream-1.6.2.tgz#sha1:904bdf194cd3122fc675c77fc4ac3d4ff0fd1a34",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [
+        "buffer-from@1.1.1", "inherits@2.0.3", "readable-stream@2.3.6",
+        "typedarray@0.0.6"
+      ]
+    },
+    "concat-stream@1.5.2": {
+      "record": {
+        "name": "concat-stream",
+        "version": "1.5.2",
+        "source":
+          "archive:https://registry.npmjs.org/concat-stream/-/concat-stream-1.5.2.tgz#sha1:708978624d856af41a5a741defdd261da752c266",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [
+        "inherits@2.0.3", "readable-stream@2.0.6", "typedarray@0.0.6"
+      ]
+    },
+    "concat-map@0.0.1": {
+      "record": {
+        "name": "concat-map",
+        "version": "0.0.1",
+        "source":
+          "archive:https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz#sha1:d8a96bd77fd68df7793a73036a3ba0d5405d477b",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "combine-source-map@0.8.0": {
+      "record": {
+        "name": "combine-source-map",
+        "version": "0.8.0",
+        "source":
+          "archive:https://registry.npmjs.org/combine-source-map/-/combine-source-map-0.8.0.tgz#sha1:a58d0df042c186fcf822a8e8015f5450d2d79a8b",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [
+        "convert-source-map@1.1.3", "inline-source-map@0.6.2",
+        "lodash.memoize@3.0.4", "source-map@0.5.7"
+      ]
+    },
+    "cipher-base@1.0.4": {
+      "record": {
+        "name": "cipher-base",
+        "version": "1.0.4",
+        "source":
+          "archive:https://registry.npmjs.org/cipher-base/-/cipher-base-1.0.4.tgz#sha1:8760e4ecc272f4c363532f926d874aae2c1397de",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [ "inherits@2.0.3", "safe-buffer@5.1.2" ]
+    },
+    "cached-path-relative@1.0.2": {
+      "record": {
+        "name": "cached-path-relative",
+        "version": "1.0.2",
+        "source":
+          "archive:https://registry.npmjs.org/cached-path-relative/-/cached-path-relative-1.0.2.tgz#sha1:a13df4196d26776220cc3356eb147a52dba2c6db",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "builtin-status-codes@3.0.0": {
+      "record": {
+        "name": "builtin-status-codes",
+        "version": "3.0.0",
+        "source":
+          "archive:https://registry.npmjs.org/builtin-status-codes/-/builtin-status-codes-3.0.0.tgz#sha1:85982878e21b98e1c66425e03d0174788f569ee8",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "buffer-xor@1.0.3": {
+      "record": {
+        "name": "buffer-xor",
+        "version": "1.0.3",
+        "source":
+          "archive:https://registry.npmjs.org/buffer-xor/-/buffer-xor-1.0.3.tgz#sha1:26e61ed1422fb70dd42e6e36729ed51d855fe8d9",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "buffer-from@1.1.1": {
+      "record": {
+        "name": "buffer-from",
+        "version": "1.1.1",
+        "source":
+          "archive:https://registry.npmjs.org/buffer-from/-/buffer-from-1.1.1.tgz#sha1:32713bc028f75c02fdb710d7c7bcec1f2c6070ef",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "buffer@4.9.1": {
+      "record": {
+        "name": "buffer",
+        "version": "4.9.1",
+        "source":
+          "archive:http://registry.npmjs.org/buffer/-/buffer-4.9.1.tgz#sha1:6d1bb601b07a4efced97094132093027c95bc298",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [
+        "base64-js@1.3.0", "ieee754@1.1.12", "isarray@1.0.0"
+      ]
+    },
+    "browserify-zlib@0.1.4": {
+      "record": {
+        "name": "browserify-zlib",
+        "version": "0.1.4",
+        "source":
+          "archive:https://registry.npmjs.org/browserify-zlib/-/browserify-zlib-0.1.4.tgz#sha1:bb35f8a519f600e0fa6b8485241c979d0141fb2d",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [ "pako@0.2.9" ]
+    },
+    "browserify-sign@4.0.4": {
+      "record": {
+        "name": "browserify-sign",
+        "version": "4.0.4",
+        "source":
+          "archive:https://registry.npmjs.org/browserify-sign/-/browserify-sign-4.0.4.tgz#sha1:aa4eb68e5d7b658baa6bf6a57e630cbd7a93d298",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [
+        "bn.js@4.11.8", "browserify-rsa@4.0.1", "create-hash@1.2.0",
+        "create-hmac@1.1.7", "elliptic@6.4.1", "inherits@2.0.1",
+        "parse-asn1@5.1.1"
+      ]
+    },
+    "browserify-rsa@4.0.1": {
+      "record": {
+        "name": "browserify-rsa",
+        "version": "4.0.1",
+        "source":
+          "archive:http://registry.npmjs.org/browserify-rsa/-/browserify-rsa-4.0.1.tgz#sha1:21e0abfaf6f2029cf2fafb133567a701d4135524",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [ "bn.js@4.11.8", "randombytes@2.0.6" ]
+    },
+    "browserify-des@1.0.2": {
+      "record": {
+        "name": "browserify-des",
+        "version": "1.0.2",
+        "source":
+          "archive:https://registry.npmjs.org/browserify-des/-/browserify-des-1.0.2.tgz#sha1:3af4f1f59839403572f1c66204375f7a7f703e9c",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [
+        "cipher-base@1.0.4", "des.js@1.0.0", "inherits@2.0.3",
+        "safe-buffer@5.1.2"
+      ]
+    },
+    "browserify-cipher@1.0.1": {
+      "record": {
+        "name": "browserify-cipher",
+        "version": "1.0.1",
+        "source":
+          "archive:https://registry.npmjs.org/browserify-cipher/-/browserify-cipher-1.0.1.tgz#sha1:8d6474c1b870bfdabcd3bcfcc1934a10e94f15f0",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [
+        "browserify-aes@1.2.0", "browserify-des@1.0.2",
+        "evp_bytestokey@1.0.3"
+      ]
+    },
+    "browserify-aes@1.2.0": {
+      "record": {
+        "name": "browserify-aes",
+        "version": "1.2.0",
+        "source":
+          "archive:http://registry.npmjs.org/browserify-aes/-/browserify-aes-1.2.0.tgz#sha1:326734642f403dabc3003209853bb70ad428ef48",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [
+        "buffer-xor@1.0.3", "cipher-base@1.0.4", "create-hash@1.2.0",
+        "evp_bytestokey@1.0.3", "inherits@2.0.3", "safe-buffer@5.1.2"
+      ]
+    },
+    "browserify@13.3.0": {
+      "record": {
+        "name": "browserify",
+        "version": "13.3.0",
+        "source":
+          "archive:http://registry.npmjs.org/browserify/-/browserify-13.3.0.tgz#sha1:b5a9c9020243f0c70e4675bec8223bc627e415ce",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [
+        "JSONStream@1.3.5", "assert@1.4.1", "browser-pack@6.1.0",
+        "browser-resolve@1.11.3", "browserify-zlib@0.1.4", "buffer@4.9.1",
+        "cached-path-relative@1.0.2", "concat-stream@1.5.2",
+        "console-browserify@1.1.0", "constants-browserify@1.0.0",
+        "crypto-browserify@3.12.0", "defined@1.0.0", "deps-sort@2.0.0",
+        "domain-browser@1.1.7", "duplexer2@0.1.4", "events@1.1.1",
+        "glob@7.1.3", "has@1.0.3", "htmlescape@1.1.1",
+        "https-browserify@0.0.1", "inherits@2.0.3",
+        "insert-module-globals@7.2.0", "labeled-stream-splicer@2.0.1",
+        "module-deps@4.1.1", "os-browserify@0.1.2", "parents@1.0.1",
+        "path-browserify@0.0.1", "process@0.11.10", "punycode@1.4.1",
+        "querystring-es3@0.2.1", "read-only-stream@2.0.0",
+        "readable-stream@2.3.6", "resolve@1.8.1", "shasum@1.0.2",
+        "shell-quote@1.6.1", "stream-browserify@2.0.1", "stream-http@2.8.3",
+        "string_decoder@0.10.31", "subarg@1.0.0", "syntax-error@1.4.0",
+        "through2@2.0.5", "timers-browserify@1.4.2", "tty-browserify@0.0.1",
+        "url@0.11.0", "util@0.10.4", "vm-browserify@0.0.4", "xtend@4.0.1"
+      ]
+    },
+    "browser-resolve@1.11.3": {
+      "record": {
+        "name": "browser-resolve",
+        "version": "1.11.3",
+        "source":
+          "archive:https://registry.npmjs.org/browser-resolve/-/browser-resolve-1.11.3.tgz#sha1:9b7cbb3d0f510e4cb86bdbd796124d28b5890af6",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [ "resolve@1.1.7" ]
+    },
+    "browser-pack@6.1.0": {
+      "record": {
+        "name": "browser-pack",
+        "version": "6.1.0",
+        "source":
+          "archive:https://registry.npmjs.org/browser-pack/-/browser-pack-6.1.0.tgz#sha1:c34ba10d0b9ce162b5af227c7131c92c2ecd5774",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [
+        "JSONStream@1.3.5", "combine-source-map@0.8.0", "defined@1.0.0",
+        "safe-buffer@5.1.2", "through2@2.0.5", "umd@3.0.3"
+      ]
+    },
+    "brorand@1.1.0": {
+      "record": {
+        "name": "brorand",
+        "version": "1.1.0",
+        "source":
+          "archive:https://registry.npmjs.org/brorand/-/brorand-1.1.0.tgz#sha1:12c25efe40a45e3c323eb8675a0a0ce57b22371f",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "brace-expansion@1.1.11": {
+      "record": {
+        "name": "brace-expansion",
+        "version": "1.1.11",
+        "source":
+          "archive:https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.11.tgz#sha1:3c7fcbf529d87226f3d2f52b966ff5271eb441dd",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [ "balanced-match@1.0.0", "concat-map@0.0.1" ]
+    },
+    "bn.js@4.11.8": {
+      "record": {
+        "name": "bn.js",
+        "version": "4.11.8",
+        "source":
+          "archive:https://registry.npmjs.org/bn.js/-/bn.js-4.11.8.tgz#sha1:2cde09eb5ee341f484746bb0309b3253b1b1442f",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "base64-js@1.3.0": {
+      "record": {
+        "name": "base64-js",
+        "version": "1.3.0",
+        "source":
+          "archive:https://registry.npmjs.org/base64-js/-/base64-js-1.3.0.tgz#sha1:cab1e6118f051095e58b5281aea8c1cd22bfc0e3",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "balanced-match@1.0.0": {
+      "record": {
+        "name": "balanced-match",
+        "version": "1.0.0",
+        "source":
+          "archive:https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.0.tgz#sha1:89b4d199ab2bee49de164ea02b89ce462d71b767",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "assert@1.4.1": {
+      "record": {
+        "name": "assert",
+        "version": "1.4.1",
+        "source":
+          "archive:https://registry.npmjs.org/assert/-/assert-1.4.1.tgz#sha1:99912d591836b5a6f5b345c0f07eefc08fc65d91",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [ "util@0.10.3" ]
+    },
+    "asn1.js@4.10.1": {
+      "record": {
+        "name": "asn1.js",
+        "version": "4.10.1",
+        "source":
+          "archive:https://registry.npmjs.org/asn1.js/-/asn1.js-4.10.1.tgz#sha1:b9c2bf5805f1e64aadeed6df3a2bfafb5a73f5a0",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [
+        "bn.js@4.11.8", "inherits@2.0.3", "minimalistic-assert@1.0.1"
+      ]
+    },
+    "array-reduce@0.0.0": {
+      "record": {
+        "name": "array-reduce",
+        "version": "0.0.0",
+        "source":
+          "archive:https://registry.npmjs.org/array-reduce/-/array-reduce-0.0.0.tgz#sha1:173899d3ffd1c7d9383e4479525dbe278cab5f2b",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "array-map@0.0.0": {
+      "record": {
+        "name": "array-map",
+        "version": "0.0.0",
+        "source":
+          "archive:https://registry.npmjs.org/array-map/-/array-map-0.0.0.tgz#sha1:88a2bab73d1cf7bcd5c1b118a003f66f665fa662",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "array-filter@0.0.1": {
+      "record": {
+        "name": "array-filter",
+        "version": "0.0.1",
+        "source":
+          "archive:https://registry.npmjs.org/array-filter/-/array-filter-0.0.1.tgz#sha1:7da8cf2e26628ed732803581fd21f67cacd2eeec",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "acorn-walk@6.1.1": {
+      "record": {
+        "name": "acorn-walk",
+        "version": "6.1.1",
+        "source":
+          "archive:https://registry.npmjs.org/acorn-walk/-/acorn-walk-6.1.1.tgz#sha1:d363b66f5fac5f018ff9c3a1e7b6f8e310cc3913",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "acorn-node@1.6.2": {
+      "record": {
+        "name": "acorn-node",
+        "version": "1.6.2",
+        "source":
+          "archive:https://registry.npmjs.org/acorn-node/-/acorn-node-1.6.2.tgz#sha1:b7d7ceca6f22e6417af933a62cad4de01048d5d2",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [
+        "acorn@6.0.4", "acorn-dynamic-import@4.0.0", "acorn-walk@6.1.1",
+        "xtend@4.0.1"
+      ]
+    },
+    "acorn-dynamic-import@4.0.0": {
+      "record": {
+        "name": "acorn-dynamic-import",
+        "version": "4.0.0",
+        "source":
+          "archive:https://registry.npmjs.org/acorn-dynamic-import/-/acorn-dynamic-import-4.0.0.tgz#sha1:482210140582a36b83c3e342e1cfebcaa9240948",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "acorn@6.0.4": {
+      "record": {
+        "name": "acorn",
+        "version": "6.0.4",
+        "source":
+          "archive:https://registry.npmjs.org/acorn/-/acorn-6.0.4.tgz#sha1:77377e7353b72ec5104550aa2d2097a2fd40b754",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "acorn@5.7.3": {
+      "record": {
+        "name": "acorn",
+        "version": "5.7.3",
+        "source":
+          "archive:https://registry.npmjs.org/acorn/-/acorn-5.7.3.tgz#sha1:67aa231bf8812974b85235a96771eb6bd07ea279",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "JSONStream@1.3.5": {
+      "record": {
+        "name": "JSONStream",
+        "version": "1.3.5",
+        "source":
+          "archive:https://registry.npmjs.org/JSONStream/-/JSONStream-1.3.5.tgz#sha1:3208c1f08d3a4d99261ab64f92302bc15e111ca0",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [ "jsonparse@1.3.1", "through@2.3.8" ]
     },
     "@opam/yojson@opam:1.4.1": {
       "record": {

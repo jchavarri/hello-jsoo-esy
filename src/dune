@@ -1,5 +1,6 @@
 (executable
   (name Hello)
   (public_name Hello.exe)
+  (libraries IsSorted)
   (preprocess (pps js_of_ocaml-ppx))
 )
