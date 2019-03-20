@@ -6,7 +6,7 @@ A project that includes the minimum configuration for a [js_of_ocaml](http://ocs
 
 You need Esy, you can install the beta using [npm](https://nodejs.org/en/download/):
 
-    % npm install -g esy@latest
+    % npm install -g esy
 
 Then you can install the project dependencies using:
 
