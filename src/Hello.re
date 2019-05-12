@@ -46,6 +46,7 @@ type obj = {
   .
   "x": Js.readonly_prop(Js.t(Js.js_string)),
   "y": Js.prop(int),
+  "z": Js.optdef_prop(int),
 };
 
 /* Declaring JavaScript objects (optional annotation) */
@@ -53,8 +54,10 @@ let obj: obj = [%js
   {
     val x = Js.string("2"); /* read-only prop */
     val mutable y = 4 /* read/write prop */
+    [@jsoo.optdef] val z = Js.undefined; /* optdef prop */
   }
 ];
+
 /* Mutating objects */
 obj##.y := 2;
 /* Reading object properties */
