@@ -53,8 +53,8 @@ type obj = {
 let obj: obj = [%js
   {
     val x = Js.string("2"); /* read-only prop */
-    val mutable y = 4 /* read/write prop */
-    [@jsoo.optdef] val z = Js.undefined; /* optdef prop */
+    val mutable y = 4; /* read/write prop */
+    [@jsoo.optdef] val z = Js.undefined /* optdef prop */
   }
 ];
 
@@ -62,6 +62,30 @@ let obj: obj = [%js
 obj##.y := 2;
 /* Reading object properties */
 let dataProp = obj##.x;
+
+/* Another way of creating objects */
+let optInj = (prop, opt) =>
+  switch (opt) {
+  | Some(s) => [|(prop, Js.Unsafe.inject(s))|]
+  | None => [||]
+  };
+let create = (~x:option(string)=?, ~y:option(int)=?, ~z:option(int)=?, ()) =>
+  optInj("x", x)
+  |> Array.append(optInj("y", y))
+  |> Array.append(optInj("z", z));
+let obj2 =
+  Js.Unsafe.obj(create(~x="2", ~y=2, ()));
+
+type record = {
+  one: bool,
+  two: string,
+  three: int
+};
+let someRecord = {
+  one: true,
+  two: "foo",
+  three: 1021
+};
 
 log("list", list);
 log("array", array);
@@ -73,6 +97,8 @@ log("tuple", tuple);
 log("function", func);
 log("obj", obj);
 log("obj property", dataProp);
+log("obj2", obj2);
+log("record", someRecord);
 
 /* Using a JavaScript library */
 let isSorted = IsSorted.sorted([|2, 3, 14|]);
