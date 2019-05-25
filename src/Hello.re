@@ -4,9 +4,9 @@ let oneArgument = (a: int) => a + 100;
 Js.Unsafe.global##.jsOneArgument := Js.wrap_callback(oneArgument);
 
 /* This will go to console.log */
-print_string("Hello from Js_of_ocaml!\n");
+Js_of_ocaml.Firebug.console##log("Hello from Js_of_ocaml!\n");
 
-let sayHi = () => print_string("Hi again!\n");
+let sayHi = () => Js_of_ocaml.Firebug.console##log("Hi again!\n");
 
 sayHi();
 
@@ -69,23 +69,19 @@ let optInj = (prop, opt) =>
   | Some(s) => [|(prop, Js.Unsafe.inject(s))|]
   | None => [||]
   };
-let create = (~x:option(string)=?, ~y:option(int)=?, ~z:option(int)=?, ()) =>
+let create =
+    (~x: option(string)=?, ~y: option(int)=?, ~z: option(int)=?, ()) =>
   optInj("x", x)
   |> Array.append(optInj("y", y))
   |> Array.append(optInj("z", z));
-let obj2 =
-  Js.Unsafe.obj(create(~x="2", ~y=2, ()));
+let obj2 = Js.Unsafe.obj(create(~x="2", ~y=2, ()));
 
 type record = {
   one: bool,
   two: string,
-  three: int
+  three: int,
 };
-let someRecord = {
-  one: true,
-  two: "foo",
-  three: 1021
-};
+let someRecord = {one: true, two: "foo", three: 1021};
 
 log("list", list);
 log("array", array);
@@ -99,6 +95,14 @@ log("obj", obj);
 log("obj property", dataProp);
 log("obj2", obj2);
 log("record", someRecord);
+log("option - Some", Some(2));
+log("option - None", None);
+let test = (~a=?, c) => {
+  Js_of_ocaml.Firebug.console##log(a);
+  log("vc", c);
+};
+test(~a=3, 2);
+test(2221);
 
 /* Using a JavaScript library */
 let isSorted = IsSorted.sorted([|2, 3, 14|]);

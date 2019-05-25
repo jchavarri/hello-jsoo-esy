@@ -20,7 +20,11 @@
   "scripts": {
     "build:watch": "refmterr dune build ./src/Hello.bc.js -w",
     "build:prod": "refmterr dune build --profile=prod -f ./src/Hello.bc.js",
-    "build:lib": "./node_modules/.bin/browserify --standalone IsSorted --no-browser-field ./lib/isSorted.js -o ./lib/isSorted.compiled.js"
+    "build:lib": "./node_modules/.bin/browserify --standalone IsSorted --no-browser-field ./lib/isSorted.js -o ./lib/isSorted.compiled.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wp": "esy webpack -w --display=\"verbose\" --debug",
+    "wp:prod": "env NODE_ENV=production esy webpack",
+    "server": "esy webpack-dev-server"
   },
   "dependencies": {
     "@opam/js_of_ocaml": "~3.2.0",
@@ -28,7 +32,8 @@
     "@opam/dune": "*",
     "@esy-ocaml/reason": "*",
     "refmterr": "*",
-    "ocaml": "~4.6.0"
+    "ocaml": "~4.6.0",
+    "is-sorted": "~1.0.5"
   },
   "resolutions": {
     "@esy-ocaml/esy-installer": "0.0.1",
@@ -37,6 +42,11 @@
   },
   "devDependencies": {
     "@esy-ocaml/merlin": "*",
-    "ocaml": "~4.6.0"
+    "ocaml": "~4.6.0",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.0.1",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.8",
+    "pnp-webpack-plugin": "^1.4.3"
   }
 }
