@@ -1,6 +1,11 @@
 (library
-  (name IsSorted)
-  (wrapped false)
-  (js_of_ocaml (javascript_files "./isSorted.compiled.js"))
-  (preprocess (pps js_of_ocaml-ppx))
+  (name isSorted)
+  (public_name jsoo-is-sorted)
+  (js_of_ocaml (javascript_files "./isSortedJs.js"))
+  (libraries gen_js_api)
 )
+
+(rule
+  (targets isSorted.ml)
+  (deps isSorted.mli)
+  (action (run %{bin:gen_js_api} %{deps})))

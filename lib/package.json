@@ -1,13 +1,9 @@
 {
-  "name": "is-sorted-jsoo",
+  "name": "jsoo-is-sorted",
   "version": "0.1.0",
-  "description": "Jsoo workflow with Reason and Esy",
+  "description": "Jsoo bindings to is-sorted JavaScript library",
   "license": "MIT",
-  "scripts": {
-    "build": "./node_modules/.bin/browserify --standalone IsSorted --no-browser-field ./isSorted.js -o ./isSorted.compiled.js"
-  },
-  "devDependencies": {
-    "browserify": "^13.1.0",
+  "dependencies": {
     "is-sorted": "~1.0.5"
   }
 }
