@@ -1,5 +1,5 @@
 {
-  "checksum": "06e0b483413e01374171445c1255192c",
+  "checksum": "fb21b4f69864c4355f7bcef1f002ca72",
   "root": "hello-jsoo-esy@link-dev:./esy.json",
   "node": {
     "refmterr@3.2.2@d41d8cd9": {
@@ -36,16 +36,19 @@
       "dependencies": [],
       "devDependencies": []
     },
-    "jsoo-is-sorted@link-dev:../lib": {
-      "id": "jsoo-is-sorted@link-dev:../lib",
+    "jsoo-is-sorted@github:jchavarri/jsoo-is-sorted#2ea1ae0@d41d8cd9": {
+      "id": "jsoo-is-sorted@github:jchavarri/jsoo-is-sorted#2ea1ae0@d41d8cd9",
       "name": "jsoo-is-sorted",
-      "version": "link-dev:../lib",
-      "source": { "type": "link-dev", "path": "../lib" },
+      "version": "github:jchavarri/jsoo-is-sorted#2ea1ae0",
+      "source": {
+        "type": "install",
+        "source": [ "github:jchavarri/jsoo-is-sorted#2ea1ae0" ]
+      },
       "overrides": [],
       "dependencies": [
-        "refmterr@3.2.2@d41d8cd9", "ocaml@4.8.1000@d41d8cd9",
+        "ocaml@4.8.1000@d41d8cd9",
         "@opam/gen_js_api@github:LexiFi/gen_js_api:gen_js_api.opam#0743a4a@d41d8cd9",
-        "@opam/dune@opam:1.11.3@9894df55", "@esy-ocaml/reason@3.5.0@d41d8cd9"
+        "@opam/dune@opam:1.11.3@9894df55"
       ],
       "devDependencies": [ "ocaml@4.8.1000@d41d8cd9" ]
     },
@@ -57,7 +60,7 @@
       "overrides": [],
       "dependencies": [
         "refmterr@3.2.2@d41d8cd9", "ocaml@4.8.1000@d41d8cd9",
-        "jsoo-is-sorted@link-dev:../lib",
+        "jsoo-is-sorted@github:jchavarri/jsoo-is-sorted#2ea1ae0@d41d8cd9",
         "@opam/js_of_ocaml-ppx@opam:3.4.0@9743829e",
         "@opam/js_of_ocaml@opam:3.4.0@d8a98a2c",
         "@opam/dune@opam:1.11.3@9894df55", "@esy-ocaml/reason@3.5.0@d41d8cd9"

@@ -2235,8 +2235,10 @@ json5@^1.0.1:
   dependencies:
     minimist "^1.2.0"
 
-"jsoo-is-sorted@file:../lib":
-  version "0.1.0"
+jsoo-is-sorted@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/jsoo-is-sorted/-/jsoo-is-sorted-0.0.1.tgz#e91fb4ce43ffb6d5fdc5b76f5657be3281f68376"
+  integrity sha512-bFn6qzyx8TQXjuGsWFvlCkFbJQDMvz/tjXCY8s/diHvotSpLd+yye7LZA2/h4C5WqFHHQcSZvTo8feHrE1HFRw==
   dependencies:
     is-sorted "~1.0.5"
 

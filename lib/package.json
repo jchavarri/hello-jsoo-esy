@@ -1,9 +1,0 @@
-{
-  "name": "jsoo-is-sorted",
-  "version": "0.1.0",
-  "description": "Jsoo bindings to is-sorted JavaScript library",
-  "license": "MIT",
-  "dependencies": {
-    "is-sorted": "~1.0.5"
-  }
-}

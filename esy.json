@@ -7,8 +7,8 @@
     "build": "refmterr dune build --force ./src/Hello.bc.js",
     "NOTE": "Optional release Section. Customizes result of `esy release`",
     "release": {
-      "releasedBinaries": ["Hello.exe"],
-      "deleteFromBinaryRelease": ["*esy_ocaml_*", "*refmterr-*", "ocaml-*"]
+      "releasedBinaries": [ "Hello.exe" ],
+      "deleteFromBinaryRelease": [ "*esy_ocaml_*", "*refmterr-*", "ocaml-*" ]
     }
   },
   "scripts": {
@@ -16,20 +16,13 @@
     "build:prod": "refmterr dune build --profile=prod -f ./src/Hello.bc.js"
   },
   "dependencies": {
+    "@esy-ocaml/reason": "*",
+    "@opam/dune": "*",
     "@opam/js_of_ocaml": "~3.4.0",
     "@opam/js_of_ocaml-ppx": "~3.4.0",
-    "@opam/dune": "*",
-    "@esy-ocaml/reason": "*",
-    "jsoo-is-sorted": "*",
-    "refmterr": "*",
-    "ocaml": "~4.8.0"
+    "jsoo-is-sorted": "jchavarri/jsoo-is-sorted#2ea1ae0",
+    "ocaml": "~4.8.0",
+    "refmterr": "*"
   },
-  "resolutions": {
-    "@esy-ocaml/esy-installer": "0.0.1",
-    "jsoo-is-sorted": "link-dev:../lib",
-    "@opam/gen_js_api": "LexiFi/gen_js_api:gen_js_api.opam#0743a4a"
-  },
-  "devDependencies": {
-    "ocaml": "~4.8.0"
-  }
+  "devDependencies": { "ocaml": "~4.8.0" }
 }
