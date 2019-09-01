@@ -1,5 +1,5 @@
 {
-  "checksum": "fb21b4f69864c4355f7bcef1f002ca72",
+  "checksum": "22d5ad43a697718502ad5e0974db9a1f",
   "root": "hello-jsoo-esy@link-dev:./esy.json",
   "node": {
     "refmterr@3.2.2@d41d8cd9": {
@@ -36,21 +36,23 @@
       "dependencies": [],
       "devDependencies": []
     },
-    "jsoo-is-sorted@github:jchavarri/jsoo-is-sorted#2ea1ae0@d41d8cd9": {
-      "id": "jsoo-is-sorted@github:jchavarri/jsoo-is-sorted#2ea1ae0@d41d8cd9",
-      "name": "jsoo-is-sorted",
-      "version": "github:jchavarri/jsoo-is-sorted#2ea1ae0",
+    "jsoo-is-sorted-esy@0.0.4@d41d8cd9": {
+      "id": "jsoo-is-sorted-esy@0.0.4@d41d8cd9",
+      "name": "jsoo-is-sorted-esy",
+      "version": "0.0.4",
       "source": {
         "type": "install",
-        "source": [ "github:jchavarri/jsoo-is-sorted#2ea1ae0" ]
+        "source": [
+          "archive:https://registry.npmjs.org/jsoo-is-sorted-esy/-/jsoo-is-sorted-esy-0.0.4.tgz#sha1:9b4e40bc2e7d358143b863be2b8e48a5e3cc0111"
+        ]
       },
       "overrides": [],
       "dependencies": [
-        "ocaml@4.8.1000@d41d8cd9",
+        "refmterr@3.2.2@d41d8cd9", "ocaml@4.8.1000@d41d8cd9",
         "@opam/gen_js_api@github:LexiFi/gen_js_api:gen_js_api.opam#0743a4a@d41d8cd9",
-        "@opam/dune@opam:1.11.3@9894df55"
+        "@opam/dune@opam:1.11.3@9894df55", "@esy-ocaml/reason@3.5.0@d41d8cd9"
       ],
-      "devDependencies": [ "ocaml@4.8.1000@d41d8cd9" ]
+      "devDependencies": []
     },
     "hello-jsoo-esy@link-dev:./esy.json": {
       "id": "hello-jsoo-esy@link-dev:./esy.json",
@@ -60,7 +62,7 @@
       "overrides": [],
       "dependencies": [
         "refmterr@3.2.2@d41d8cd9", "ocaml@4.8.1000@d41d8cd9",
-        "jsoo-is-sorted@github:jchavarri/jsoo-is-sorted#2ea1ae0@d41d8cd9",
+        "jsoo-is-sorted-esy@0.0.4@d41d8cd9",
         "@opam/js_of_ocaml-ppx@opam:3.4.0@9743829e",
         "@opam/js_of_ocaml@opam:3.4.0@d8a98a2c",
         "@opam/dune@opam:1.11.3@9894df55", "@esy-ocaml/reason@3.5.0@d41d8cd9"

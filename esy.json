@@ -20,7 +20,7 @@
     "@opam/dune": "*",
     "@opam/js_of_ocaml": "~3.4.0",
     "@opam/js_of_ocaml-ppx": "~3.4.0",
-    "jsoo-is-sorted": "jchavarri/jsoo-is-sorted#2ea1ae0",
+    "jsoo-is-sorted-esy": "^0.0.4",
     "ocaml": "~4.8.0",
     "refmterr": "*"
   },
