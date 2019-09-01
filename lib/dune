@@ -1,6 +1,0 @@
-(library
-  (name IsSorted)
-  (wrapped false)
-  (js_of_ocaml (javascript_files "./isSorted.compiled.js"))
-  (preprocess (pps js_of_ocaml-ppx))
-)

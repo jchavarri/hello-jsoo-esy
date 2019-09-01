@@ -2,6 +2,8 @@
 
 A project that includes the minimum configuration for a [js_of_ocaml](http://ocsigen.org/js_of_ocaml/) project using Reason and [Esy](https://github.com/esy-ocaml/esy).
 
+It also includes an example showing how to integrate existing js_of_ocaml bindings: [`jsoo-is-sorted`](https://github.com/jchavarri/jsoo-is-sorted).
+
 ## Usage
 
 You need Esy, you can install the beta using [npm](https://nodejs.org/en/download/):
@@ -10,36 +12,33 @@ You need Esy, you can install the beta using [npm](https://nodejs.org/en/downloa
 npm install -g esy
 ```
 
-Then you can install the project dependencies using:
+Install the project dependencies and build the project:
 
 ```sh
-esy install
+esy # ocaml dependencies
+yarn # js dependencies (can use npm too)
 ```
-
-Then build the project dependencies along with the project itself:
 
 ```sh
-esy build
+esy build:watch
+# in another tab
+yarn webpack
 ```
 
-And test the compiled JS executable, open `index.html` in your browser.
+After you see the webpack compilation succeed (the `yarn webpack` step), open up `build/index.html` (no server needed!). Then modify `Hello.re` file in `src` and refresh the page to see the changes.
 
-To generate the production build (without sourcemaps, and minified) run:
+## Run Project with Server
+
+To run with the webpack development server run `yarn server` and view in the browser at http://localhost:8000. Running in this environment provides hot reloading and support for routing; just edit and save the file and the browser will automatically refresh.
+
+To use a port other than 8000 set the `PORT` environment variable (`PORT=8080 yarn server`).
+
+## Build for Production
 
 ```sh
-esy build:prod
+yarn clean
+esy build:prod # without sourcemaps, minified
+yarn webpack:production
 ```
 
-## Building the bindings
-
-The sample project include an example to show how to bind to a JavaScript library: `is-sorted`.
-
-js_of_ocaml does not have a sophisticated way to bundle JavaScript libraries, so 
-the packages is bundled inside a `.js` file that loads in the global `window` object
-using Browserify.
-
-To build these bindings, run:
-
-```sh
-cd ./lib && yarn && yarn build
-```
+This will replace the development artifact `build/Index.js` for an optimized version as well as copy `src/index.html` into `build/`. You can then deploy the contents of the `build` directory (`index.html` and `Index.js`).

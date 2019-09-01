@@ -1,5 +1,7 @@
 let oneArgument = (a: int) => a + 100;
 
+module Js = Js_of_ocaml.Js;
+
 /* Making Reason functions available in JavaScript */
 Js.Unsafe.global##.jsOneArgument := Js.wrap_callback(oneArgument);
 
@@ -9,12 +11,6 @@ print_string("Hello from Js_of_ocaml!\n");
 let sayHi = () => print_string("Hi again!\n");
 
 sayHi();
-
-let requireModule = s =>
-  Js.Unsafe.fun_call(
-    Js.Unsafe.js_expr("require"),
-    [|Js.Unsafe.inject(Js.string(s))|],
-  );
 
 /* Using JavaScript functions from Reason */
 let log = (title, data) =>
@@ -101,5 +97,7 @@ log("obj2", obj2);
 log("record", someRecord);
 
 /* Using a JavaScript library */
-let isSorted = IsSorted.sorted([|2, 3, 14|]);
-log("isSorted", isSorted);
+log("isSorted", IsSorted.isSorted);
+
+let isSorted2 = IsSorted.isSorted([|20, 3, 124|]);
+log("isSorted2", isSorted2);

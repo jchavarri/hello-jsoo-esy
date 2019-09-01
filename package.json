@@ -1,0 +1,23 @@
+{
+  "name": "hello-jsoo-esy",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "esy",
+    "start": "esy build:watch",
+    "clean": "esy dune clean",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack -w",
+    "webpack:production": "NODE_ENV=production webpack",
+    "server": "webpack-dev-server"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.0.1",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.8"
+  },
+  "dependencies": {
+    "jsoo-is-sorted": "^0.0.4"
+  }
+}

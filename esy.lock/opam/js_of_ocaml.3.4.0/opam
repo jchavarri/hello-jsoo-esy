@@ -11,20 +11,20 @@ It makes it possible to run pure OCaml programs in JavaScript
 environment like browsers and Node.js
 """
 
+name: "js_of_ocaml"
+
 build: [["dune" "build" "-p" name "-j" jobs]]
 
 depends: [
-  "ocaml" {>= "4.02.0"}
+  "ocaml" {>= "4.02.0" & < "4.09.0"}
   "dune" {>= "1.2"}
-  "ppx_expect" {with-test & >= "0.12.0"}
-  "cmdliner"
-  "cppo" {>= "1.1.0"}
-  "ocamlfind"
-  "yojson"
+  "ocaml-migrate-parsetree"
+  "ppx_tools_versioned"
+  "uchar"
+  "js_of_ocaml-compiler"
 ]
 conflicts: [
-  "ocamlfind"   {< "1.5.1"}
-  "js_of_ocaml" {< "3.0"}
+  "ppx_tools_versioned"     {<= "5.0beta0"}
 ]
 
 url {
